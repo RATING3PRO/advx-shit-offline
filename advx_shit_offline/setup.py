@@ -18,7 +18,7 @@ def read_readme():
 
 setup(
     name="advx-shit-offline",
-    version="1.0.13",
+    version="1.0.14",
     author="AdventureX",
     author_email="",
     description="一个用于随机输出AdventureX文案的Python包（离线版本）",
