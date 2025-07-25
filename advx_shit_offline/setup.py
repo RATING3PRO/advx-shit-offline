@@ -3,7 +3,7 @@ import os
 
 # 读取README文件
 def read_readme():
-    with open("README.md", "r", encoding="utf-8") as fh:
+    with open("../README.md", "r", encoding="utf-8") as fh:
         return fh.read()
 
 setup(
