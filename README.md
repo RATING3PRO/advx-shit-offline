@@ -1,8 +1,8 @@
 # advx-shit-offline
 
-一个用于随机输出AdventureX文案的Python包（离线版本）
+一个用于随机输出AdventureX-Shit文案的Python包（离线版本）
 
-## 🚀 快速开始
+## 快速开始
 
 ### 安装
 
@@ -16,17 +16,6 @@ pip install advx-shit-offline
 from advx_shit_offline import advx
 print(advx.random)
 ```
-
-## 📦 功能特性
-
-- ✅ **离线使用** - 无需网络连接
-- ✅ **智能解析** - 自动提取和过滤文案
-- ✅ **随机输出** - 从165条文案中随机选择
-- ✅ **缓存机制** - 提高性能
-- ✅ **完整文案** - 保证多行文案的完整性
-- ✅ **自定义路径** - 支持自定义文件路径
-
-## 📖 详细用法
 
 ### 基本用法
 
@@ -71,7 +60,7 @@ advx.refresh()
 print(advx.random)
 ```
 
-## 🎯 示例输出
+## 示例输出(基本用法)
 
 ```
 是谁杀死了找💩比赛
@@ -79,69 +68,22 @@ print(advx.random)
 再也不用到处找厕所了，更不会有溢出风险
 ```
 
-## 📁 项目结构
+## 项目结构
 
 ```
 advx-shit-offline/
 ├── advx_shit_offline/
-│   └── __init__.py          # 核心代码
-├── setup.py                 # 安装配置
-├── README.md               # 说明文档
-├── LICENSE                 # 许可证
-├── requirements.txt        # 依赖文件
-└── MANIFEST.in            # 打包配置
+│   └── __init__.py          
+├── setup.py                 
+├── README.md               
+├── LICENSE                 
+├── requirements.txt        
+└── MANIFEST.in            
 ```
 
-## 🔧 开发
+## 贡献
 
-### 克隆仓库
-
-```bash
-git clone https://github.com/RATING3PRO/advx-shit-offline.git
-cd advx-shit-offline
-```
-
-### 安装开发依赖
-
-```bash
-cd advx_shit_offline
-pip install -e .[dev]
-```
-
-### 构建包
-
-```bash
-python setup.py sdist bdist_wheel
-```
-
-## 📦 发布
-
-### 手动发布
-
-```bash
-# 构建包
-python setup.py sdist bdist_wheel
-
-# 检查包
-twine check dist/*
-
-# 上传到PyPI
-twine upload dist/*
-```
-
-### 自动发布
-
-使用GitHub Actions自动发布：
-
-```bash
-# 创建标签
-git tag v1.0.0
-git push origin v1.0.0
-```
-
-## 🤝 贡献
-
-欢迎提交Issue和Pull Request！
+提交Issue和Pull Request
 
 1. Fork 本仓库
 2. 创建特性分支 (`git checkout -b feature/AmazingFeature`)
@@ -149,19 +91,19 @@ git push origin v1.0.0
 4. 推送到分支 (`git push origin feature/AmazingFeature`)
 5. 打开 Pull Request
 
-## 📄 许可证
+## 许可证
 
 本项目采用 MIT 许可证 - 查看 [LICENSE](advx_shit_offline/LICENSE) 文件了解详情
 
-## 🔗 相关链接
+## 相关链接
 
 - [GitHub仓库](https://github.com/RATING3PRO/advx-shit-offline)
 - [PyPI包](https://pypi.org/project/advx-shit-offline/)
 
-## ⭐ 支持
+## 支持
 
-如果这个项目对您有帮助，请给我们一个星标！
+发送邮件(xiesmail2000@gmail.com)
 
 ---
 
-**注意**: 这个包是AdventureX活动的娱乐项目，仅供学习和娱乐使用。 
+**注意**: 这个包是AdventureX黑客放轻松的娱乐项目，仅供学习和娱乐使用。 
