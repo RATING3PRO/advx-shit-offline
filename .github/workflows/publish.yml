@@ -26,17 +26,14 @@ jobs:
           
       - name: Build package
         run: |
-          cd advx_shit_offline
-          python -m build
+          python -m build advx_shit_offline
           
       - name: Check package
         run: |
-          cd advx_shit_offline
           twine check dist/*
           
       - name: Publish to PyPI
         run: |
-          cd advx_shit_offline
           twine upload dist/*
         env:
           TWINE_USERNAME: __token__
