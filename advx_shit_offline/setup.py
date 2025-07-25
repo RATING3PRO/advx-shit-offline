@@ -7,7 +7,7 @@ def read_readme():
         return fh.read()
 
 setup(
-    name="advx-shit-offline-pkg",
+    name="advx-shit-offline",
     version="1.0.0",
     author="AdventureX",
     author_email="",
