@@ -1,4 +1,4 @@
- name: Test
+name: Test
 
 on:
   push:
@@ -30,4 +30,4 @@ jobs:
     - name: Test with pytest
       run: |
         cd advx_shit_offline
-        python -c "from advx_shit_offline import advx; print('Test passed:', advx.random)"
+        python -c "from advx_shit_offline import advx; print('Test passed:', advx.random)" 
