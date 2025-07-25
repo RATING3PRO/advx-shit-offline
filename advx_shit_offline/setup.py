@@ -3,8 +3,18 @@ import os
 
 # 读取README文件
 def read_readme():
-    with open("../README.md", "r", encoding="utf-8") as fh:
-        return fh.read()
+    try:
+        # 尝试从当前目录读取
+        with open("README.md", "r", encoding="utf-8") as fh:
+            return fh.read()
+    except FileNotFoundError:
+        try:
+            # 尝试从上级目录读取
+            with open("../README.md", "r", encoding="utf-8") as fh:
+                return fh.read()
+        except FileNotFoundError:
+            # 如果都找不到，返回默认描述
+            return "一个用于随机输出AdventureX文案的Python包（离线版本）"
 
 setup(
     name="advx-shit-offline",
